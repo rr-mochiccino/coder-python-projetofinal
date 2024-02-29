@@ -1,0 +1,4 @@
+pandas==2.2.0
+requests
+schedule==1.2.1
+plyer
