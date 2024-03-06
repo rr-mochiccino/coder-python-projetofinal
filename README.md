@@ -51,4 +51,61 @@ A função `salva_tabela_banco` salva um DataFrame em uma tabela de banco de dad
 O código conclui com a extração de dados brutos da PokeAPI, a transformação de dados, a impressão de informações dos DataFrames e o salvamento dos DataFrames transformados no banco de dados SQLite. O exemplo fornecido envolve dados de Pokémon, habilidades e tipos.
 
 
-Sinta-se à vontade para personalizar as URLs, os intervalos de agendamento e outros parâmetros conforme suas necessidades específicas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Configuração do Ambiente Virtual
+
+Recomenda-se o uso de um ambiente virtual para isolar as dependências do projeto. Siga as etapas abaixo para configurar e ativar o ambiente virtual.
+
+## Instalação do Virtualenv (se ainda não estiver instalado)
+
+1. Abra um terminal e execute o seguinte comando para instalar o `virtualenv` no Windows:
+
+```bash
+pip install virtualenv
+````
+
+2 . Navegue até o diretório do projeto:
+
+```bash
+cd caminho/do/seu/projeto
+```
+
+3. Crie um ambiente virtual:
+   
+```bash
+virtualenv vvenv
+```
+
+4. Ativação do Ambiente Virtual
+
+No Windows (cmd):
+```bash
+venv\Scripts\activate
+```
+No Windows (PowerShell):
+```bash
+.\venv\Scripts\Activate
+```
+
+5. Instalação das Dependências
+
+Com o ambiente virtual ativado, instale as dependências usando o seguinte comando:
+```bash
+pip install -r requirements.txt
+```
+Agora você está pronto para executar o código dentro do ambiente virtual isolado!
+
+
+
